@@ -1,0 +1,11 @@
+n = int(input())
+a=9
+b=11
+print(a,end=' ')
+print(b,end=' ')
+while(n!=2):
+  temp=b
+  b=a+b
+  print(b,end=' ')
+  a=temp
+  n=n-1

@@ -1,0 +1,12 @@
+a=[]
+n=5
+m=n
+sum=0
+i=0
+while(n!=0):
+  a.append(int(input()))
+  sum=sum+a[i]
+  n=n-1
+  i=i+1
+mean=sum/m
+print("%0.2f"%mean)
